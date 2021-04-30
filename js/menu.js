@@ -21,3 +21,13 @@ $(function(){
     return false;
   })
 });
+
+$(function(){
+  $("li").on('click', function() {
+    $(".gnav").removeClass('gnav-active');
+    $(".menu").removeClass('menu-active');
+    $(".header-left").removeClass('disp-active');
+    $(".inner").removeClass('inner-active');
+    $(".btn-trigger").removeClass('active');
+  })
+});

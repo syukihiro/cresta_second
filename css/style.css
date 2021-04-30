@@ -151,7 +151,8 @@ section {
       margin: 0 auto; }
       .works ul li .works-list-img {
         height: 180px;
-        width: 100%; }
+        width: 100%;
+        background-size: cover; }
       .works ul li .textbox {
         height: 130px;
         width: 100%;
